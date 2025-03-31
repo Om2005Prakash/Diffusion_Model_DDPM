@@ -1,3 +1,14 @@
+This repo contains experiment code for UMC203(AIML) Term Project
+
+Goals:
+
+We aim to:
+
+1> Implement a general dataloader that supports datasets beyond MNIST.
+
+2> Modify the network architecture to handle rectangular images (current implementation only supports square images).
+
+
 Denoising Diffusion Probabilistic Models Implementation in Pytorch
 ========
 
