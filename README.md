@@ -49,7 +49,8 @@ This would work if you have .png files. If the images are of other formats or co
 * ```git clone https://github.com/explainingai-code/DDPM-Pytorch.git```
 * ```cd DDPM-Pytorch```
 * ```pip install -r requirements.txt```
-* For training/sampling use the below commands passing the desired configuration file as the config argument in case you want to play with it. 
+* For training/sampling use the below commands passing the desired configuration file as the config argument in case you want to play with it.
+* ```python extract_mnist_images.py```for loading the dataset (Make sure to download MNIST in csv from Kaggle)
 * ```python -m tools.train_ddpm``` for training ddpm
 * ```python -m tools.sample_ddpm``` for generating images
 
